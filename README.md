@@ -1,4 +1,3 @@
-
 # Ascendum Demo Project
 
 This project uses Git for version control. Follow the steps below to clone the repository, work on a feature branch, and safely push your changes to the remote repository.
@@ -15,7 +14,7 @@ git clone <repository_url>
 cd ascendum_demo
 ```
 
-### 3. Checkout your working branch
+### 3. Checkout your working branch  
 Replace `branch_name` with the name of your branch.
 ```bash
 git checkout branch_name
@@ -26,31 +25,37 @@ git checkout branch_name
 git pull origin branch_name
 ```
 
-### 5. Stage all changes
+### 5. Create and switch to your new feature branch  
+Replace `my_branch_name` with your actual branch name.
+```bash
+git checkout -b my_branch_name
+```
+
+### 6. Stage all changes
 ```bash
 git add .
 ```
 
-### 6. Check the status of your working directory
+### 7. Check the status of your working directory
 ```bash
 git status
 ```
 
-### 7. Commit your changes with a meaningful message
+### 8. Commit your changes with a meaningful message
 ```bash
 git commit -m "Your commit message here"
 ```
 
-### 8. Pull the latest changes from the main branch (to avoid conflicts)
+### 9. Pull the latest changes from the main branch (to avoid conflicts)  
 Replace `main_branch_name` with your main development branch, such as `main` or `develop`.
 ```bash
 git pull origin main_branch_name
 ```
 
-### 9. Push your committed changes to your branch
-Replace `mybranch_name` with your actual branch name.
+### 10. Push your committed changes to your branch  
+Replace `my_branch_name` with your actual branch name.
 ```bash
-git push origin mybranch_name
+git push origin my_branch_name
 ```
 
 ---
