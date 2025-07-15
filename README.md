@@ -17,19 +17,22 @@ cd ascendum_demo
 ### 3. Checkout your working branch  
 Replace `branch_name` with the name of your branch.
 ```bash
-git checkout branch_name
+git checkout original_branch_name
 ```
 
 ### 4. Pull the latest changes from the remote branch
 ```bash
-git pull origin branch_name
+git pull origin original_branch_name
 ```
 
 ### 5. Create and switch to your new feature branch  
 Replace `my_branch_name` with your actual branch name.
 ```bash
-git checkout -b my_branch_name
+git checkout -b your_branch_name
 ```
+
+#########################################################################
+
 
 ### 6. Stage all changes
 ```bash
@@ -66,3 +69,8 @@ git push origin my_branch_name
 - Use clear, descriptive commit messages.
 - Don’t push directly to `main` or `develop`; use feature branches.
 - Regularly pull from `main` to keep your branch updated.
+- compare the push request and add meaningfull comment
+- Before commit to github check the branch it should not be main
+- eg order_tracking_system <- shivam_change
+- Not main <- shivam_change
+- Neverever merge the code.
