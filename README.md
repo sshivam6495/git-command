@@ -38,6 +38,11 @@ git checkout -b your_branch_name
 
 ## 🧪 Development Workflow
 
+### Navigate into the project directory
+```bash
+cd ascendum_poc
+```
+
 ### 6️⃣ Stage your changes
 ```bash
 git add .
