@@ -14,7 +14,7 @@ git clone <repository_url>
 
 ### 2️⃣ Navigate into the project directory
 ```bash
-cd ascendum_demo
+cd ascendum_poc
 ```
 
 ### 3️⃣ Checkout the base branch  
