@@ -82,6 +82,7 @@ git push origin your_branch_name
 - 🔍 **When creating a pull request (PR):**
   - Compare it against the correct base branch (not `main` unless intended).
   - Add a clear title and description explaining your changes.
+  - 👥 **Assign at least one reviewer** to your PR for code review.
 - 🚫 **Never merge code yourself.** Only reviewers or leads should merge after code review and approval.
 
 ---
